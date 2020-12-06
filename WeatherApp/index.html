@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+<body>
+  <div id="app-container">
+      <div class="app">
+
+          <div class="zip-form">
+              <form id="zipForm">
+                  <div class="flex-parent">
+                    <label for="zipcode">Zip</label>
+                    <input class="form-control"
+                        type="input" id="zipcode" name="zipcode" 
+                        value="" required
+                    />
+                    <button type="submit" class="btn btn-success"> Get the forcast!</button>
+                </div>
+              </form>
+          </div>
+
+          <div id="weatherList">
+          </div>
+          <div id="currentDay">
+          </div>
+
+      </div>
+  </div>
+  <script src="./dist/weather.js"></script>
+</body>
+</html>
